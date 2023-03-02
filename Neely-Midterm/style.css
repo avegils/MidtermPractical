@@ -16,6 +16,10 @@ header{
 
 }
 
+.title {
+    margin-left: 212px;
+}
+
 .logo{
     height: 50px;
     cursor: pointer;
@@ -23,7 +27,6 @@ header{
 
 .nav_links{
     list-style: none;
-    
 }
 
 .nav_links li{
@@ -77,7 +80,7 @@ footer h4{
   }
   .content .box {
     width: 300px;
-    height: 300px;
+    height: 370px;
     border-radius: 30px 30px 0 0;
     background-color: lightgoldenrodyellow;
     border: 1px solid black;
@@ -96,8 +99,27 @@ footer h4{
     height: 70%;
     background-color: white;
   }
+
 div .content img{
     width: 100%;
     height: 100%;
     object-fit: fill;
+}
+
+.content h2 {
+    padding-top: 10px;
+}
+
+.content p {
+    padding-top: 10px;
+}
+
+.house {
+    padding-right: 5px;
+}
+
+.content a {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
 }
