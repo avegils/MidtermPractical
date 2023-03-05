@@ -8,3 +8,4 @@
 ### - Linked the home page through the "more >" tags to indivdual pages
 ### - Used HTML and CSS to create the pages inside the "pages" folder
 ### - Used Javascript to use radio buttons to change images on the page
+### - Added preprocessors to the css
