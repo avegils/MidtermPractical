@@ -11,6 +11,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
     <link rel="stylesheet" href="https://use.typekit.net/kvj2fwy.css">
+    <script src = "../main.js" defer ></script>
 </head>
 <body>
     <header>
@@ -40,16 +41,22 @@
     <div class = "divider"></div>
     <div class="poemMain">
         <div class = "buttons">
-            <button type = "radio" id = "poem1"></button>
-            <button type = "radio" id = "poem2"></button>
+            <button type = "radio" id = "poem1" name = "poems"></button>
+            <button type = "radio" id = "poem2" name = "poems"></button>
         </div>
         <h6>(click to view more poems)</h6>
         <h2>Poems</h2>
-        <img src = "../images/twinkleStar.jpeg">
+        <img id = "poem" src = "../images/twinkleStar.jpeg">
     </div>
+    <div class="divider"></div>
     <div class = "find">
+        <div class = "buttons">
+            <button type = "radio" id = "find1" name = "poems"></button>
+            <button type = "radio" id = "find2" name = "poems"></button>
+        </div>
+        <h6>(click to view more)</h6>
         <h2>Can you find the similes?</h2>
-        <img src = "../images/dragonPoem.jpeg">
+        <img id = "find" src = "../images/dragonPoem.jpeg">
     </div>
     <footer>
         <h4> &copy; Copyright NeelyBoard</h4>

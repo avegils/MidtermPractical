@@ -99,7 +99,7 @@ iframe {
 
 .poemMain {
     width: 100%;
-    margin-top: 40px;
+    margin: 40px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,6 +127,11 @@ iframe {
 .poemMain h6 {
     margin-top: -30px;
 }
+
+#poem img {
+    height: 760px;
+}
+
 .find {
     width: 100%;
     margin-top: 40px;
@@ -138,12 +143,24 @@ iframe {
 .find img {
     width: 50%;
     height: 700px;
+    border: 2px solid black;
 }
 
 .find h2 {
     font-size: 50px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     text-decoration: underline;
+}
+
+.find button[type="radio"]{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+.find h6 {
+    margin-top: -30px;
 }
 
 /* Footer Styling */
