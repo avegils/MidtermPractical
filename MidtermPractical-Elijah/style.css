@@ -69,16 +69,16 @@ nav{
     background-color: lightblue;
   }
 
-  .neelycenter{
-    display: none;
-  }
-
   .mobileNeely{
     position: absolute;
     display: flex;
     left: 40%;
     top: 5px;
   }
+  .neelycenter{
+    display: none;
+  }
+  
 
 
   @media screen and (min-width: 700px) {
